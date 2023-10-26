@@ -39,6 +39,36 @@
 			/* Maintain aspect ratio */
 			filter: grayscale(10%);
 		}
+
+
+		/* Responsive Styles for Mobile */
+@media screen and (max-width: 980px) {
+    #content-row {
+        flex-direction: column;
+    }
+
+    #text-section, 
+    #image-section {
+        /* Each section will take full width */
+        flex: 0 0 100%;
+        padding: 15px; /* Adjust padding for mobile view */
+        text-align: center; /* Center align the text for better readability */
+    }
+
+    #image-section img {
+        max-width: 100%; /* Full width for smaller screens */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    #image-section {
+        order: 2; /* Image section comes after text section */
+    }
+
+    #text-section {
+        order: 1; /* Text section comes first */
+    }
+}
+
 	</style>
 </head>
 
