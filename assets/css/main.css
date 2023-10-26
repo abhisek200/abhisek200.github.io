@@ -4116,7 +4116,7 @@ body.landing #header {
 	}
 
 	#titleBar .title {
-		color: #ffffff;
+		color: #a44aaa;
 		display: block;
 		font-weight: 300;
 		height: 44px;
@@ -4154,7 +4154,7 @@ body.landing #header {
 	}
 
 	#titleBar .toggle:before {
-		background: #00a4af;
+		background: #a44aaa;
 		color: rgba(255, 255, 255, 0.5);
 		content: '\f0c9';
 		display: block;
