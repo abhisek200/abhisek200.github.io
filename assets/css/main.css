@@ -226,7 +226,7 @@ em,
 i {
 	/* font-size: 27px; */
 	font-style: italic;
-	font-weight:inherit;
+	font-weight: inherit;
 }
 
 p {
@@ -2657,6 +2657,28 @@ input[type="radio"]+label:before {
 	width: 100%;
 	height: 100%;
 	z-index: 1;
+}
+
+
+@media (max-width: 768px) {
+    .image.fit.main img {
+        display: none; /* Hides the img tag */
+    }
+
+    .image.fit.main::before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-image: url("images/dpedit.jpg"); /* Mobile specific image */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #ffee51; /* Fallback color */
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
 }
 
 
