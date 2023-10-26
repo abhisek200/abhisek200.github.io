@@ -2660,7 +2660,7 @@ input[type="radio"]+label:before {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
     .image.fit.main img {
         display: none; /* Hides the img tag */
     }
