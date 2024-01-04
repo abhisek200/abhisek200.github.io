@@ -211,8 +211,9 @@ a {
 	text-decoration: none;
 }
 
+/* hover color change for 'home' and 'about' */
 a:hover {
-	color: #e5536b !important;
+	color: #F8354A !important;
 	border-bottom-color: transparent;
 }
 
@@ -2671,7 +2672,7 @@ input[type="radio"]+label:before {
         position: absolute;
         left: 0;
         top: 0;
-        background-image: url("images/dpedit.jpg"); /* Mobile specific image */
+        background-image: url("images/notchbotch.jpg"); /* Mobile specific image */
         background-repeat: no-repeat;
         background-size: cover;
         background-color: #ffee51; /* Fallback color */
@@ -3059,18 +3060,19 @@ input[type="button"].primary,
 	color: #ffffff !important;
 }
 
+/* Buttons background at homepage "work" and "connect" */
 input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 .button.primary:hover {
-	background-color: #e13652;
+	background-color: #F8354A;
 }
 
 input[type="submit"].primary:active,
 input[type="reset"].primary:active,
 input[type="button"].primary:active,
 .button.primary:active {
-	background-color: #e13652;
+	background-color: #F8354A;
 }
 
 input[type="submit"].disabled,
@@ -3361,7 +3363,7 @@ body.is-touch .spotlight {
 }
 
 .wrapper.style2 {
-	background: #a44aaa;
+	background: #e44c64;
 
 }
 
@@ -4155,7 +4157,7 @@ body.landing #header {
 	}
 
 	#titleBar .toggle:before {
-		background: #a44aaa;
+		background: #118ef7;
 		color: rgba(255, 255, 255, 0.5);
 		content: '\f0c9';
 		display: block;
@@ -4364,22 +4366,23 @@ body.landing #header {
 
 /* Modified button styles */
 .gradient-button {
-	font-weight: bold;
-	display: inline-block;
-	padding: 20px 40px;
-	text-decoration: none;
-	background: black;
-	/* changed to black background */
-	border: none;
-	border-radius: 5px;
-	color: white;
-	/* changed text color for better visibility on black */
-	position: relative;
-	overflow: hidden;
-	/* removed the transition effect for hover */
-	box-shadow: 0px 0px 15px 6px rgba(159, 2, 159, 0.812);
-	/* consistent purple shadow */
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    background: black;
+    /* changed to black background */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    /* changed text color for better visibility on black */
+    position: relative;
+    overflow: hidden;
+    /* removed the transition effect for hover */
+    box-shadow: 0px 0px 17px 9px rgba(215, 8, 149, 0.6);
+    /* consistent purple shadow with a spread */
 }
+
 
 .gradient-button:hover {
 	color: white;
@@ -4419,3 +4422,9 @@ body.landing #header {
 				transition: transform 0.7s;
 			}
 			*/
+
+/* Change color on hover for the "Works" link */
+#nav ul li:nth-child(2) a.button.primary:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
