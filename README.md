@@ -1,2 +1,5 @@
 # website_1_notchbotch
-initiating creating a website for my channel
+creating a static website for my design channel/freelance.
+www.notchbotch.com
+
+you can have the source code here.
