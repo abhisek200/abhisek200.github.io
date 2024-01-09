@@ -199,8 +199,11 @@
 			// Check if email is not empty and valid, you might want to add more robust email validation here
 			if (email) {
 				// Redirects the user to the Google Form URL, including the email in the URL query string
-				window.location.href = 'https://forms.gle/nZxy7VuRxwFe59M8A?email=' + encodeURIComponent(email);
-			} else {
+				var link = document.createElement('a');
+				link.href = 'https://forms.gle/nZxy7VuRxwFe59M8A?email=' + encodeURIComponent(email);
+				link.target = '_blank'; // Set target to open in new tab
+				link.click(); // Simulate a click on the link
+				} else {
 				alert('Please enter a valid email address.'); // Simple form validation
 			}
 		}
