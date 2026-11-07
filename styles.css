@@ -1000,3 +1000,244 @@ h2 {
     font-size: 10px;
   }
 }
+
+/* =========================================
+   FINAL DESIGN REFINEMENTS
+   Typography, buttons, spacing and images
+========================================= */
+
+/* Overall readability */
+
+body {
+  font-size: 16px;
+}
+
+/* Navigation */
+
+.nav-links {
+  font-size: 15px;
+  gap: 30px;
+}
+
+.nav-resume {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Small section labels */
+
+.eyebrow,
+.section-kicker,
+.project-type,
+.skill-label {
+  font-size: 12px;
+}
+
+/* Hero introduction */
+
+.hero-lede {
+  font-size: 17px;
+  line-height: 1.85;
+}
+
+.hero-meta {
+  font-size: 11px;
+}
+
+/* Hero buttons: Explore my work and LinkedIn */
+
+.hero-actions {
+  gap: 15px;
+}
+
+.hero-actions .button {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 16px 23px;
+  border-radius: 6px;
+  gap: 19px;
+}
+
+.hero-actions .button-primary {
+  box-shadow: 0 5px 22px rgba(130,170,255,.16);
+}
+
+.hero-actions .button-quiet {
+  font-weight: 800;
+  border-color: rgba(255,255,255,.2);
+}
+
+/* About section */
+
+.about-copy {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.text-link {
+  font-size: 14px;
+}
+
+.focus-card h3 {
+  font-size: 19px;
+}
+
+.focus-card p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* Section headings and descriptions */
+
+.section-title-row p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.section-note {
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+/* Project cards */
+
+.project-visual {
+  height: 220px;
+}
+
+.project-gallery {
+  height: 220px;
+}
+
+.project-info h3 {
+  font-size: 21px;
+}
+
+.project-info p {
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.project-type {
+  font-size: 11px;
+}
+
+.tag-row span {
+  font-size: 12px;
+  padding: 6px 10px;
+}
+
+/* Skills */
+
+.skill-label {
+  font-size: 12px;
+}
+
+.skill-list span {
+  font-size: 12px;
+  padding: 9px 12px;
+}
+
+/* Contact and footer */
+
+.contact-inner > p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.site-footer {
+  font-size: 12px;
+}
+
+/* Improve section spacing */
+
+.intro-section,
+.work-section,
+.skills-section {
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.section-kicker {
+  margin-bottom: 23px;
+}
+
+.focus-grid {
+  margin-top: 42px;
+}
+
+.section-title-row {
+  margin-bottom: 28px;
+}
+
+.contact-section {
+  margin-top: 40px;
+  padding: 80px 0;
+}
+
+/* Single project screenshots */
+
+.project-image {
+  background: #0d1420;
+}
+
+.project-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 8px;
+}
+
+/* Mobile adjustments */
+
+@media (max-width: 650px) {
+  .nav-links {
+    font-size: 15px;
+  }
+
+  .hero-lede {
+    font-size: 15px;
+  }
+
+  .hero-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .hero-actions .button {
+    width: fit-content;
+    font-size: 15px;
+  }
+
+  .project-visual {
+    height: 190px;
+  }
+
+  .project-gallery {
+    height: 190px;
+  }
+
+  .project-info h3 {
+    font-size: 19px;
+  }
+
+  .project-info p {
+    font-size: 14px;
+  }
+
+  .section-title-row p {
+    font-size: 14px;
+  }
+
+  .intro-section,
+  .work-section,
+  .skills-section {
+    padding-top: 55px;
+    padding-bottom: 35px;
+  }
+
+  .contact-inner > p {
+    font-size: 15px;
+  }
+}
