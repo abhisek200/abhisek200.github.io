@@ -1268,3 +1268,50 @@ body {
   padding: 5px;
   background: #080d16;
 }
+
+/* Consistent project information layout */
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0;
+  padding: 22px 23px 24px;
+}
+
+.project-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.project-type {
+  font-size: 11px;
+  color: var(--accent);
+}
+
+.project-status {
+  display: inline-block;
+  padding: 4px 8px;
+  border: 1px solid rgba(140,224,208,.3);
+  border-radius: 4px;
+  color: var(--accent-two);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: .7px;
+}
+
+.project-info h3 {
+  margin-top: 12px;
+  font-size: 21px;
+  line-height: 1.35;
+}
+
+.project-info p {
+  margin-top: 9px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.75;
+}
